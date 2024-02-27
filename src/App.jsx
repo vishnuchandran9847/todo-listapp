@@ -78,8 +78,8 @@ function App() {
 
   return (
    <div className="min-h-screen flex flex-col gap-4 items-center justify-center p-4 bg-custom-background bg-center bg-cover">
-      <div className="bg-white-100 p-6 rounded shadow-md w-full max-w-lg lg:w-1/4">
-        <h1 className="text-3xl font-bold text-white text-center mb-4">Todo App</h1>
+      <div className="bg-gray-100 p-6 rounded shadow-md w-full max-w-lg lg:w-1/4">
+        <h1 className="text-3xl font-bold text-black text-center mb-4">Todo App</h1>
         <div className="flex flex-row">
           <input type="text" 
           placeholder="Enter Your Todo"
@@ -89,7 +89,7 @@ function App() {
        
     </div>
      {todos.length>0 &&
-      <div className="bg-white-100 p-6 rounded shadow-md w-full max-w-lg lg:w-1/4">
+      <div className="bg-gray-100 p-6 rounded shadow-md w-full max-w-lg lg:w-1/4">
       <ul>
           {todos.map((todo,index)=>(
             <li key={index} className="flex items-center justify-between bg-white p-3 rounded shadow-md mb-3">
